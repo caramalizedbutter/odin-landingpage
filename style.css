@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-family: Roboto;
+    font-weight: bold;
+    text-decoration: none;
+    margin:30px;
+    color:#F9FAF8;
+    font-size: 24px;
+    margin-left:150px;
+}
+
+.menu{
+    display: flex;
+    gap:50px;
+    margin:30px;
+    margin-right:150px;
+}
+
+
+.items,.para{
+    font-family:Roboto;
+    color:#E5E7EB;
+    font-size: 18px;
+}
+
+header, .awesome, footer{
+    background-color: #1F2937;;
+}
+a{
+    text-decoration: none;
+}
+
+.left-part{
+    width: 600px;
+    margin-left: 200px;
+}
+
+.right-part{
+    margin-bottom: 70px;
+}
+
+.awesome{
+    padding-top:100px;
+    display:flex;
+    justify-content: space-between;
+}
+.heading{
+    font-size: 48px;
+    font-weight: 900;
+    font-family:Roboto;
+    color:#F9FAF8;
+}
+
+.para{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.btn{
+    background-color: #3882F6;
+    width: 111px;
+    height: 38px;
+    border-radius: 12px;
+    border: none;
+}
+.img{
+    width:280px;
+    margin-right:200px;
+}
+
+.signup{
+    font-size: 20px;
+    color:#F9FAF8;
+    font-weight:bold;
+    font-family: Roboto;
+}
+
+/* This is the third part now  */
+
+.first,.second,.third,.fourth{
+    border: 5px solid #3882F6;
+    border-radius: 25px;
+    width:200px;
+    height:200px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.othersources{
+    display:flex;
+    justify-content: center;
+    gap:80px;
+    margin-bottom:80px;
+}
+
+.odinimg,.fccimg,.ytimg,.scrimbaimg{
+    width:180px;
+    height:180px;
+}
+
+.first-container,.second-container,.third-container,.fourth-container{
+    width:200px;
+}
+.infoheader{
+    text-align: center;
+    margin-top:80px;
+    margin-bottom:60px;
+}
+.infoheadertext{
+    font-family:Roboto;
+    font-weight:900;
+    font-size: 36px;
+}
+
+.p1,.p2,.p3,.p4{
+    font-family:Roboto;
+    font-size:14px;
+    width:190px;
+    text-align: center;
+    margin-top: 10px;
+}
+.section3{
+    background-color: #E5E7EB;
+}
+.quote{
+    font-family:Roboto;
+    font-style: italic;
+    font-size:36px;
+    color:#1F2937;
+    margin-top:60px;
+}
+.reference{
+    font-family:Roboto;
+    font-weight: bold;
+    font-size:15px;
+}
